@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestStr(t *testing.T) { //
+func TestStr(t *testing.T) {
 	var tests = []struct {
 		InPut, Close string
 	}{
