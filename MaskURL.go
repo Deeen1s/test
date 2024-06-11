@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func mask(messege string) string { //функция
+func mask(messege string) string { // функция
 
 	sliceWeb := []byte(messege) //пустой байтовый слайс для сайта
 	var sliceHttp []byte        //пустой байтовый слайс для http
